@@ -1,0 +1,20 @@
+keyword int if 
+operator = > +
+identifier age print
+constant 20 17
+
+int age = 20;
+
+delimiter ; , { } ( )
+
+if (age > 17) {
+    print(age);
+}
+
+keyword else
+
+else {
+    print(age + 1);
+}
+
+weird
