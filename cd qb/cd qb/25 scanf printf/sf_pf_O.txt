@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main() {
+    int n1=1,n2=2,n3=3;
+    char s[10] = "Varad";
+    
+    writef("Enter 3 numbers \n");
+    readf("%d",&n1);
+    readf("%d",&n2);
+    readf("%d",&n3);
+    if (n1 >= n2 && n1 >= n3)
+        writef("%d is the largest number.", n1);
+
+    if (n2 >= n1 && n2 >= n3)
+        writef("%d is the largest number.", n2);
+        
+    if (n3 >= n1 && n3 >= n2)
+        writef("%d is the largest number.", n3);
+
+    writef("\nCongratulations %s. You found the largest number!",s);
+
+    return 0;
+}
+Number of scanf is :- 3
+Number of printf is :- 5

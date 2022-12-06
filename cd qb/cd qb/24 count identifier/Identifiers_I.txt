@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main() {
+    int n1=1,n2=2,n3=3;
+    char s[10] = "Varad";
+    
+    printf("Enter 3 numbers \n");
+    scanf("%d",&n1);
+    scanf("%d",&n2);
+    scanf("%d",&n3);
+    if (n1 >= n2 && n1 >= n3)
+        printf("%d is the largest number.", n1);
+
+    if (n2 >= n1 && n2 >= n3)
+        printf("%d is the largest number.", n2);
+        
+    if (n3 >= n1 && n3 >= n2)
+        printf("%d is the largest number.", n3);
+
+    printf("\nCongratulations %s. You found the largest number!",s);
+
+    return 0;
+}
